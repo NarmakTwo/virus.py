@@ -7,6 +7,7 @@ Well with this, you can, it's one of the fastest ways to do that, and it also sp
 You can just copy and paste the code below into the program or copy and paste the code in `main.py`, it's really that easy! (also, the `# VIRUS SAYS HI!` and `# VIRUS SAYS BYE!` are required for it to work.)
 ```python3
 # VIRUS SAYS HI!
+# Copyright NarmakTwo, all rights reserved
 import sys
 import glob
 import os
