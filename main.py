@@ -1,4 +1,5 @@
 # VIRUS SAYS HI!
+# Copyright NarmakTwo, all rights reserved 
 import sys
 import glob
 import os
