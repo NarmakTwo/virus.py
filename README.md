@@ -1,7 +1,7 @@
 # virus.py
 ## A Python file bomber
 ### How it works
-So, ever got access to your friend's code, and want to make the code permently unreadable?
+So, ever got access to your friend's code, and want to rickroll them?
 Well with this, you can, it's one of the fastest ways to do that, and it also spreads to other files in the dirertory.
 ### How to use it
 You can just copy and paste the code below into the program or copy and paste the code in `main.py`, it's really that easy! (also, the `# VIRUS SAYS HI!` and `# VIRUS SAYS BYE!` are required for it to work.)
